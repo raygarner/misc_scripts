@@ -1,0 +1,6 @@
+#!/bin/sh
+cp ~/docs/roff/Makefile .
+touch doc.ms
+mkdir img
+mkdir src
+ls --color=always

@@ -1,0 +1,4 @@
+#!/bin/sh
+ffmpeg -f pulse -ac 1 -i default out.wav
+
+

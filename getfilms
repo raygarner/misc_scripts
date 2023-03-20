@@ -1,0 +1,4 @@
+#!/bin/sh
+#run as sudo
+mv /var/lib/transmission/Downloads/* /home/rng/media/vids/films/ || exit
+

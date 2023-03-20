@@ -1,0 +1,7 @@
+#!/bin/sh
+d1=$(pwd)
+cd $1
+namefix
+cd $d1
+d=$(echo "$1" | sed 's/\///g')
+ls -l $1| awk '{print $9}' | sort -g | sed '/.pls/d' > "$1/playlist.pls"

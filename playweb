@@ -1,0 +1,2 @@
+#!/bin/sh
+mpv --playlist="https://media.raygarner.co.uk/music/$1/playlist.pls"

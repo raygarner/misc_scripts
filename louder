@@ -1,0 +1,3 @@
+#/bin/sh
+ffmpeg -i "$1.wav" -filter:a "volume=2.5" "$1_louder.wav"
+

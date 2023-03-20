@@ -1,0 +1,2 @@
+#!/bin/sh
+mpv --save-position-on-quit --playlist="$1"

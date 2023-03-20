@@ -1,0 +1,7 @@
+#!/bin/sh
+cp ~/docs/latex/Makefile .
+cp ~/docs/latex/article.tex .
+mkdir src
+mkdir img
+touch src/empty
+ls --color=auto
