@@ -1,3 +1,3 @@
 #!/bin/sh
-cdrecord -v -pad speed=X dev=/dev/sr0 -dao -swab "$1"
+cdrecord -v -pad speed=1 dev=/dev/sr0 -dao -swab "$1"
 
