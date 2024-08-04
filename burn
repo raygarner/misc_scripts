@@ -1,0 +1,3 @@
+#!/bin/sh
+cdrecord -v -pad speed=X dev=/dev/sr0 -dao -swab "$1"
+
