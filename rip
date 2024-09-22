@@ -1,0 +1,2 @@
+#!/bin/sh
+cdda2wav -vall cddb=-1 speed=4 -paranoia paraopts=proof -B -D /dev/sr0
